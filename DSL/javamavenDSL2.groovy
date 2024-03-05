@@ -23,6 +23,6 @@ job('Java Maven App DSL 2') {
     publishers {
         archiveArtifacts('target/*.jar')
         archiveJunit('target/surefire-reports/*.xml')
-	mailer(bttyarias3030@gmail.com)
+	mailer('bettyarias3030@gmail.com', true, true)
     }
 }
